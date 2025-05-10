@@ -9,7 +9,7 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/Toputech/ALOOH.git /root/zokou_BOt
+RUN git clone https://github.com/Toputech/AlooG.git /root/zokou_BOt
 WORKDIR /root/zokou_Bot/
 
 
